@@ -19,6 +19,8 @@ class LmcRunner < Formula
   end
 
   test do
+    # Generate a random integer between 1 and 100
+    # Runs a file that outputs that integer
     number = rand(100)
     (testpath/"test.txt").write <<~EOS
       LDA ONE
