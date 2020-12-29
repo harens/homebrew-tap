@@ -12,6 +12,12 @@ class Seaport < Formula
     url :stable
   end
 
+  bottle do
+    root_url "https://github.com/harens/homebrew-tap/releases/download/seaport-0.1.0"
+    cellar :any_skip_relocation
+    sha256 "45f15dffc59cdf7025c1506200b9b878c890b7b7b38a651c27789d90b4dec456" => :catalina
+  end
+
   depends_on "gh"
   depends_on "python@3.9"
 
