@@ -5,7 +5,7 @@ class Seaport < Formula
   homepage "https://github.com/harens/seaport"
   url "https://files.pythonhosted.org/packages/eb/ba/ff03dabc68bd7577eeef257ef44ff678faf872d8e792a81b8d35e16c4390/seaport-0.4.0.tar.gz"
   sha256 "e09a9a1cd6d096ee821b7f25972158d59f14f4252da10eef1a8f8689c164c478"
-  license "MIT"
+  license "BSD-3-Clause"
   head "https://github.com/harens/seaport.git"
 
   livecheck do
