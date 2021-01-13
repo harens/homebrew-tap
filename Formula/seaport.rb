@@ -13,11 +13,11 @@ class Seaport < Formula
   end
 
   bottle do
-    root_url "https://github.com/harens/homebrew-tap/releases/download/seaport-0.3.1"
+    root_url "https://github.com/harens/homebrew-tap/releases/download/seaport-0.4.0"
     cellar :any_skip_relocation
-    sha256 "6e31ecb6428a71c0cc1b841d7480ecc8d2f76a9baf698daddead351c26770135" => :big_sur
-    sha256 "93ab7dce9a6a5e79d9adccec1296e1448555e8a445dd364c8bb0182c478b24f3" => :catalina
-    sha256 "4b1dbd2f5b5f3de9638da9592fac9f727c127cdecc9285946597bcca62f28bb4" => :x86_64_linux
+    sha256 "593dc4f0d8d60a4fa93494ec570507dc116916302b45a6402469d9bbb2aa6837" => :big_sur
+    sha256 "5d197a0195d10fd15325d9ef655d52063e01b64be2e535447c4909b0d3e19651" => :catalina
+    sha256 "cf298f5c9862ad4de4b04e7f9428f01f08c78558a81a8a0abf99db36bb6c028c" => :x86_64_linux
   end
 
   depends_on "gh"
