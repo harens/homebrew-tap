@@ -3,8 +3,8 @@ class Seaport < Formula
 
   desc "More mighty port bump for MacPorts"
   homepage "https://github.com/harens/seaport"
-  url "https://files.pythonhosted.org/packages/eb/ba/ff03dabc68bd7577eeef257ef44ff678faf872d8e792a81b8d35e16c4390/seaport-0.4.0.tar.gz"
-  sha256 "e09a9a1cd6d096ee821b7f25972158d59f14f4252da10eef1a8f8689c164c478"
+  url "https://files.pythonhosted.org/packages/40/93/fc2e59ec4346b78876b625211f38ed1dcf444728aac69fc79def6091e0c3/seaport-0.4.1.tar.gz"
+  sha256 "05ffeed3e4159bf11fddc450d2d755e0016b8ae5f85307a500e3cb25635018ef"
   license "BSD-3-Clause"
   head "https://github.com/harens/seaport.git"
 
