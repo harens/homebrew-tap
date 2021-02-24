@@ -14,14 +14,18 @@ class Seaport < Formula
 
   bottle do
     root_url "https://github.com/harens/homebrew-tap/releases/download/seaport-0.4.1"
-    cellar :any_skip_relocation
-    sha256 "17700afdd3ce62b7c033defaeb741e56762980d221327e918d55b06c872fa98c" => :big_sur
-    sha256 "269a5793934ef3007f37ef4b3a01e47a6a89b29fb353fb3a3565bc92ac89c594" => :catalina
-    sha256 "d9fad9cd85f7b46e868f24614cc0f1aeccd73e3624669296894914e6840a7c92" => :x86_64_linux
+    sha256 cellar: :any_skip_relocation, big_sur:      "17700afdd3ce62b7c033defaeb741e56762980d221327e918d55b06c872fa98c"
+    sha256 cellar: :any_skip_relocation, catalina:     "269a5793934ef3007f37ef4b3a01e47a6a89b29fb353fb3a3565bc92ac89c594"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "d9fad9cd85f7b46e868f24614cc0f1aeccd73e3624669296894914e6840a7c92"
   end
 
   depends_on "gh"
   depends_on "python@3.9"
+
+  resource "beartype" do
+    url "https://files.pythonhosted.org/packages/19/d5/4f6d70a2096ce24ad91b8fabdac28643fdddf920e0f7977cde7bd1bb7296/beartype-0.5.1.tar.gz"
+    sha256 "195b1ea1834511b876507563808d8ca602d7cfb141ab9660c17a5148fb38eeb9"
+  end
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/27/6f/be940c8b1f1d69daceeb0032fee6c34d7bd70e3e649ccac0951500b4720e/click-7.1.2.tar.gz"
