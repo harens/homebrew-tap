@@ -14,7 +14,8 @@ class LmcRunner < Formula
 
   bottle do
     root_url "https://github.com/harens/homebrew-tap/releases/download/lmc-runner-0.0.3"
-    sha256 cellar: :any_skip_relocation, catalina: "b6ca0209c56b5393df7bcd551947eb83fc5591cd31eb82ad3f62e13a5701abc1"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, big_sur: "2d366ec70d181140aa4df69533a3859974d1d3d04e67cc9bfd4546d17562d580"
   end
 
   depends_on "python@3.9"
